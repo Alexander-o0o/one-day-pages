@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "AlsRubl";
+	src: url("../fonts/AlsRubl/rouble.eot");
+	src: url("../fonts/AlsRubl/rouble.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/AlsRubl/rouble.woff") format("woff"),
+	url("../fonts/AlsRubl/rouble.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamProBlack";
+	src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+	src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+	url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamProBold";
+	src: url("../fonts/GothamProBold/GothamProBold.eot");
+	src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+	url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamProMedium";
+	src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+	src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+	url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamProRegular";
+	src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+	src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+	url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "NerisBoldItalic";
+	src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot");
+	src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NerisBoldItalic/NerisBoldItalic.woff") format("woff"),
+	url("../fonts/NerisBoldItalic/NerisBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "NerisLight";
+	src: url("../fonts/NerisLight/NerisLight.eot");
+	src: url("../fonts/NerisLight/NerisLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NerisLight/NerisLight.woff") format("woff"),
+	url("../fonts/NerisLight/NerisLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansSemiBold";
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ProximaNovaLight";
+	src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
+	src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
+	url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ProximaNovaBold";
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ProximaNovaRegular";
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "UbuntuLight";
+	src: url("../fonts/UbuntuLight/UbuntuLight.eot");
+	src: url("../fonts/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+	url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
