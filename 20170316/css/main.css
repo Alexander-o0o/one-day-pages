@@ -1,0 +1,493 @@
+
+
+body {
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+	color: #333;
+}
+
+.main-header {
+	margin: 0;
+	font-size: 38px;
+	font-weight: bold;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	left: 10px;
+}
+
+.section-header {
+margin: 0;
+font-size: 15px;
+letter-spacing: 6px;
+text-transform: uppercase;
+color: gray;
+font-weight: lighter;
+text-align: center;
+}
+
+
+/* ┬ ┬┌─┐┌─┐┌┬┐┌─┐┬─┐
+   ├─┤├┤ ├─┤ ││├┤ ├┬┘
+   ┴ ┴└─┘┴ ┴─┴┘└─┘┴└─      */
+
+header {
+	padding: 204px 0 234px;
+	text-align: center;
+	background: #2a353a;
+}
+
+header ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+header li {
+	float: left;
+}
+
+header ul a {
+	display: inline-block;
+}
+
+.static-main-menu {
+	margin-top: 23px;
+	display: inline-block;
+}
+
+.static-main-menu > li + li {
+	margin-left: 32px;
+}
+
+.static-main-menu > li > a {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+}
+
+.static-main-menu > li > a:hover {
+
+}
+
+
+/*==============================
+
+     S E A R C H   F O R M
+
+==============================*/
+/***
+.search-wrap {
+	width: auto;
+}
+
+.search-form {
+	padding: 10px;
+}
+
+.search-form input {
+	border: solid 1px;
+	border-radius: 3px;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 150px;
+	height: 24px;
+}
+
+.search-form button {
+	padding: 4px;
+	border: solid 1px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.search-form button span {
+	margin-left: -5px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	font-size: 0px;
+}
+*/
+
+
+
+/*.first-slide {
+	position: relative;
+}
+
+.first-slide h1 {
+	position: absolute;
+	left: 20px;
+	bottom: 100px;
+	text-transform: capitalize;
+	color: white;
+}
+
+/*------------------------------
+
+     our works
+
+------------------------------*/
+
+.our-works {
+padding: 93px 8px;
+}
+
+.works {
+list-style: none;
+margin: 0;
+padding: 0;
+margin-top: 65px;
+margin-left: 20px;
+}
+
+.works:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.works li {
+float: left;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.works a {
+height: 240px;
+width: 300px;
+display: block;
+}
+
+.carousel {
+
+}
+
+.carousel-slide {
+	height: 197px;
+}
+
+.carousel-slide img {
+width: 100%;
+height: 100%;
+border-radius: 5px;
+}
+
+.works .name {
+	margin: 0;
+margin-top: 10px;
+font-size: 10px;
+}
+
+.works .description {
+	margin: 0;
+margin-top: 5px;
+font-size: 10px;
+color: #999;
+}
+
+
+
+
+
+
+.contacts {
+	padding: 67px 0 0;
+}
+
+.our-team {
+	margin: 69px auto 0;
+padding: 0;
+list-style: none;
+width: 96%;
+text-align: center;
+position: relative;
+left: 11px;
+}
+
+.our-team:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.our-team li {
+	margin: 0;
+padding: 0;
+float: left;
+width: calc(25% - 3px);
+position: relative;
+}
+
+.our-team li + li:after {
+	content: "";
+position: absolute;
+left: 0;
+top: 12px;
+width: 2px;
+height: 84%;
+background: #ffefef;
+}
+
+.our-team li p {
+	font-size: 14px;
+	color: #999;
+	margin: 0;
+}
+
+.our-team .name {
+	color: #333;
+}
+
+.our-team .role {
+	margin-top: 8px;	
+}
+
+.our-team .mail {
+	margin-top: 32px;
+	display: inline-block;
+	color: #999;
+	font-size: 14px;
+}
+
+.our-team .phone {
+	margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-form {
+display: block;
+padding: 100px 48px;
+}
+
+.contact-form:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.contact-form .left-col {
+float: left;
+width: 36.5%;
+}
+
+.contact-form .right-col {
+	float: right;
+width: 61.5%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+border: solid 1px #ddd;
+border-radius: 5px;
+background: #ddd;
+color: #777;
+text-shadow: 1px 1px 1px white;
+}
+
+.contact-form .form-group {
+display: block;
+position: relative;
+}
+
+.contact-form .form-group + .form-group {
+margin-top: 20px;
+}
+
+.contact-form i {
+width: 30px;
+position: absolute;
+left: 16px;
+border:none;
+border-right: solid 1px;
+height: 100%;
+font-size: 18px;
+color: #aaa;
+text-shadow: 1px 1px 1px white;
+box-shadow: 0.5px 0 0 white;
+}
+
+.contact-form i:before {
+	margin-top: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact-form input {
+width: 87%;
+height: 33px;
+padding-left: 56px;
+}
+
+.contact-form input:befor {
+	background: transparent;
+	border-color: red;
+}
+
+.contact-form input:focus {
+	background: transparent;
+	border-color: #e01837;
+}
+
+.contact-form textarea {
+width: 97%;
+height: 130px;
+padding: 10px;
+}
+
+.contact-form button {
+float: right;
+margin-top: 20px;
+width: 96px;
+height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map {
+	height: 380px;
+	background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	background: #2a353a;
+padding: 103px 0 136px;
+text-align: center;
+}
+
+footer .logo {
+width: 380px;
+}
+
+footer .mailig-list-form {
+margin-top: 46px;
+}
+
+.mailig-list-form input,
+.mailig-list-form button {
+
+}
+
+.mailig-list-form input {
+border: none;
+width: 242px;
+border-radius: 16px;
+text-align: center;
+padding: 8px 32px;
+}
+
+.mailig-list-form button {
+padding: 8px 14px;
+border: none;
+margin-left: 6px;
+border-radius: 16px;
+}
+
+footer .social-contacts {
+	margin: 52px 0 0 -40px;
+}
+
+footer .social-contacts li {
+	display: inline-block;
+}
+
+footer .social-contacts li + li{
+	margin-left: 21px;
+}
+
+footer .social-contacts a {
+	color: #2a353a;
+background: white;
+display: table-cell;
+font-size: 22px;
+width: 32px;
+height: 32px;
+vertical-align: middle;
+border-radius: 50%;
+opacity: 0.7;
+transition: all 0.2s;
+}
+
+footer .social-contacts a:hover {
+opacity: 1;
+}
+
+footer .social-contacts i {
+	
+}
+
+footer .social-contacts li:first-child i {
+	font-size: 16px;
+position: relative;
+top: -3px;
+}
+
+footer p {
+color: white;
+font-size: 14px;
+margin-top: 54px;
+}
+
+footer .australia-image {
+	width: 40px;
+margin-top: 35px;
+transition: all 1s;
+}
+
+footer .australia-image:hover {
+	transform: rotate(180deg);
+}
+
+
+/* Ascii заголовки: http://patorjk.com/software/taag; calvin s 
