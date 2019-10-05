@@ -1,0 +1,32 @@
+
+@font-face {
+	font-family: Flama Basic;
+
+	src: url('../fonts/Flama Basic Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: Flama Book;
+
+	src: url('../fonts/Flama Book Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: Flama Medium;
+
+	src: url('../fonts/Flama Medium Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: Flama Semibold;
+
+	src: url('../fonts/Flama Semibold Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: normal;
+
+	src: url('../fonts/Open Sans Regular.woff') format('woff');
+}
